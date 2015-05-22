@@ -4,7 +4,7 @@ import cPickle
 import datetime
 
 
-host = "84.200.53.116"
+host = "{{server_ip}}"
 port = 6666
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
